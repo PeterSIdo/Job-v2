@@ -20,6 +20,12 @@
 </head>
 
 <body>
+
+ {% include 'nav.html' %}
+  
+  <div class="b-example-divider"></div>
+
+  
   <div class ="container">
     
       <h1 class = "text-center mt-2 mb-4" >Daily Care Records</h1>
@@ -45,11 +51,15 @@
 
     
     <div class = "text-center">
-    <button class="btn btn-primary btn-lg"> Contact Us</button>
+    <a class ="btn btn-primary btn-lg"
+      href="mailto:petersido@gmail.com?subject=Inquiry">
+      Contact Us
+        </a>
      
-    <p class = "mt-4"> Copyright Peter 2023 </p>
+    
    </div>
-  </div>    
+  </div> 
+  {% include 'footer.html' %}
 </body>
 
 </html>
