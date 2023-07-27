@@ -6,28 +6,28 @@ JOBS =[
   {
     'id': 1,
     'title': 'Data Analyst',
-    'location': 'Bengaluru, India',
-    'salary': 'Rs. 10,00,000'
+    'location': 'Edinburgh, Scotland',
+    'salary': '£50,000'
   },
 
  {
     'id': 2,
     'title': 'Data Scientist',
-    'location': 'Delhi, India',
-    'salary': 'Rs. 15,00,000'
+    'location': 'Manchester, England',
+    'salary': '£45,000'
   },
 
    {
     'id': 3,
     'title': 'Frontend Engenier',
     'location': 'Edinburgh, UK',
-    'salary': '£55000'
+    'salary': '£55,000'
   },
   {
     'id': 3,
     'title': ' Backend Engenier',
     'location': 'Edinburgh, UK',
-    'salary': '£88000'
+    'salary': '£88,000'
   }
 ]
 
